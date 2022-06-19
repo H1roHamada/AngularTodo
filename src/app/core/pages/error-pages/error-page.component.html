@@ -1,0 +1,16 @@
+<div class="wrapper-error-page">
+  <div>
+    <h1>
+      HTTP {{ statusCode }}
+      <p>
+        {{ statusCodeMessage }}
+      </p>
+    </h1>
+    <p>
+      {{ errorMessage }}
+    </p>
+    <button mat-raised-button  (click)="back()">
+      {{ buttonText }}
+    </button>
+  </div>
+</div>
